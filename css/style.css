@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon {
+    padding-left: 2px;
+    padding-right: 5px;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-size: 15px;
+}
+
+.navbar {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+.top-nav {
+    background-color: #e6e6e6;
+    margin: 0px;
+}
+
+.login-icon,
+.massage-icon,
+.cart-icon,
+.order-icon {
+    font-size: 2rem;
+}
+
+
+/* start about us page */
+
+
+/* end about us page */
+
+
+/* start shop Page Style */
+.product-image{
+    background-size: cover !important;
+    width: auto;
+}
+.grid-icon{
+    font-size: 25px;
+    padding: 5px;
+    color:#333;
+}
+.sort{
+    padding: 5px;
+    margin: 2px;
+}
+.category-name{
+    font-size: 12px;
+    margin: 0px;
+}
+
+/* end shop page style */
+
+
+
+
+
+
+
+
+/* Start Brand Slider */
+.brand{
+    padding: 20px;
+    text-align: center !important;
+}
+.brand__item {
+    position: relative;
+}
+.owl-item{
+    align-items: center !important;
+}
+.brand__item img{
+    width: 150px !important;
+    }
+
+.brand__slider .col-lg-3 {
+    max-width: 100%;
+}
+
+.brand__slider.owl-carousel .owl-nav button {
+    font-size: 30px;
+    height: 70px;
+    width: 30px;
+    position: absolute;
+    left: -35px;
+    top: 50%;
+    -webkit-transform: translateY(-35px);
+}
+
+.brand__slider.owl-carousel .owl-nav button.owl-next {
+    left: auto;
+    right: -35px;
+}
+
+/* End Brand Slider */
+
+
+/* Start Footer */
+.footer-link {
+    padding: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer p {
+    text-align: justify;
+}
+
+.footer-social-icon {
+    font-size: 30px;
+}
+
+/* End Footer */
