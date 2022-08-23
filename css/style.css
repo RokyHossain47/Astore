@@ -23,7 +23,6 @@ body {
 }
 
 .navbar {
-    background-color: #333 !important;
     color: #fff !important;
 }
 
@@ -43,6 +42,52 @@ body {
     font-size: 2rem;
 }
 
+/* Product slider */
+
+div {
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+.viewed_nav_container {
+    position: absolute;
+    right: -5px;
+    bottom: 14px
+}
+
+.viewed_nav {
+    display: inline-block;
+    cursor: pointer
+}
+
+.viewed_nav i {
+    color: #dadada;
+    font-size: 18px;
+    padding: 5px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease
+}
+
+.viewed_nav:hover i {
+    color: #606264
+}
+
+.viewed_prev {
+    margin-right: 15px
+}
+
+.viewed_slider_container {
+    padding-top: 13px;
+}
+.owl-item{
+    margin-right: 15px !important;
+    width: 200px !important;
+}
 
 /* start about us page */
 
@@ -68,15 +113,15 @@ body {
     font-size: 12px;
     margin: 0px;
 }
+.fa-star{
+    color: #CFD8DC;
+    cursor: pointer;
+}
+.star-active{
+    color: #FFCA28 !important;
+}
 
 /* end shop page style */
-
-
-
-
-
-
-
 
 /* Start Brand Slider */
 .brand{
@@ -114,6 +159,67 @@ body {
 
 /* End Brand Slider */
 
+/* newslatter */
+.newsletter {
+    padding: 80px 0;
+    background: #333;
+}
+
+
+.newsletter .content {
+
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2;
+
+ }
+
+ .content-tuned{
+ 	    font-size: 0.8rem;
+    margin-bottom: 34px !important;
+    color: #fff;
+ }
+
+.form-control:focus {
+box-shadow: none !important;
+border: 2px solid #243c4f;
+border-color: none;
+
+}
+
+.unsubscribe-link{
+	text-decoration: none !important;
+	
+	font-size: 13px;
+	color: #fff; 
+}
+
+.unsubscribe-link:hover{
+	text-decoration: none !important;
+	color: #fff;
+}
+.bg-dark, .btn-dark{
+    background-color: #243c4f !important;
+}
+.btn-success:hover{
+    background-color: #243c4f;
+    color: white;
+}
+.manu-item:hover{
+    background-color: #243c4f !important;
+    color: #fff !important;
+    transition: 0.5s !important;
+}
+.hover:hover{
+    background-color: #fff !important;
+    color: #fff !important;
+    transition: 0.5s !important;
+}
+.hover{
+    background: linear-gradient(90deg, rgba(36,60,79,1) 25%, rgba(25,135,84,1) 100%, rgba(16,55,62,1) 100%); 
+}
 
 /* Start Footer */
 .footer-link {
@@ -121,7 +227,7 @@ body {
 }
 
 .footer {
-    background-color: #333;
+    background-color: #243c4f;
     color: #fff;
     padding: 10px;
 }

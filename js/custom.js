@@ -32,4 +32,86 @@ $(document).ready(function(){
     }
 });
 
-}); 
+});
+// product slider
+if($('.viewed_slider').length)
+{
+    var viewedSlider = $('.viewed_slider');
+
+    viewedSlider.owlCarousel(
+    {
+        loop:true,
+        margin:15,
+        autoplay:true,
+        autoplayTimeout:2000,
+        nav:false,
+        dots:false,
+        responsive:
+        {
+            0:{items:1},
+            575:{items:2},
+            768:{items:3},
+            991:{items:4},
+            1199:{items:5}
+        }
+    });
+
+    if($('.viewed_prevv').length)
+    {
+        var prev = $('viewed_prevv');
+        prev.on('click', function()
+        {
+            viewedSlider.trigger('prev.owl.carousel');
+        });
+    }
+
+    if($('.viewed_nextt').length)
+    {
+        var next = $('.viewed_nextt');
+        next.on('click', function()
+        {
+            viewedSlider.trigger('next.owl.carousel');
+        });
+    }
+}
+
+if($('.vslider').length)
+{
+    var viewedSlider = $('.vslider');
+
+    viewedSlider.owlCarousel(
+    {
+        loop:true,
+        margin:15,
+        autoplay:true,
+        autoplayTimeout:2500,
+        nav:false,
+        dots:false,
+        responsive:
+        {
+            0:{items:1},
+            575:{items:2},
+            768:{items:3},
+            991:{items:4},
+            1199:{items:4}
+        }
+    });
+
+    if($('.viewed_prev').length)
+    {
+        var prev = $('viewed_prev');
+        prev.on('click', function()
+        {
+            viewedSlider.trigger('prev.owl.carousel');
+        });
+    }
+
+    if($('.viewed_next').length)
+    {
+        var next = $('.viewed_next');
+        next.on('click', function()
+        {
+            viewedSlider.trigger('next.owl.carousel');
+        });
+    }
+}
