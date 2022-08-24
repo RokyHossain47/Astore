@@ -21,7 +21,7 @@
 </head>
 <body>
     <!-- start top nav -->
-    <div class="top-nav">
+    <div class="top-nav bg-dark text-light">
         <div class="container">
             <div class="row pt-2">
                 <div class="col-sm-2 col-2">
@@ -30,14 +30,14 @@
                 <div class="col-sm-7 col-7">
                     <div class="input-group p-2">
                         <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-                        <button type="button" class="btn btn-outline-primary"><i class="fas fa-search"></i> Search</button>
+                        <button type="button" class="btn btn-success"><i class="fas fa-search"></i> Search</button>
                     </div>
                 </div>
                 <div class="col-sm-3 text-center col-3">
                     <div class="row pt-2">
                         <div class="col-sm-5"><i class="fas fa-user"></i> Login/Singin</div>
                         <div class="col-sm-4"><i class="fas fa-comment-alt"></i> Massage </div>
-                        <div class="col-sm-3"><a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart </a></div>
+                        <div class="col-sm-3"><a href="cart.html" class="text-light"><i class="fas fa-shopping-cart"></i> Cart </a></div>
                     </div>
                 </div>
             </div>
@@ -46,40 +46,13 @@
     <!-- end top nav -->
 
     <!-- start navbar -->
-    <div class="navb">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-9">
-                    <a class="btn" href="#"><i class="fas fa-bars p-1"></i> All Brand</a>
-                    <a class="btn" href="#"> Apple</a>
-                    <a class="btn" href="#"> HP</a>
-                    <a class="btn" href="#"> AMD</a>
-                    <a class="btn" href="#"> Intel</a>
-                    <a class="btn" href="#"> Dolby</a>
-                    <a class="btn" href="#"> Philips</a>
-                    <a class="btn" href="#"> Sumsung</a>
-                    <a class="btn" href="#"> Mi</a>
-                    <a class="btn" href="#"> Realme</a>
-                    <a class="btn" href="#"> Tacno</a>
-                </div>
-
-                <div class="col-sm-3">
-                    <a class="btn" href="#"> Get APP</a>
-                    <a class="btn" href="#"> Language</a>
-                    <a class="btn " href="#"> Apple</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end navbar -->
-    <!-- start navbar -->
-    <div class="navbar">
+    <div class="navbar bg-success">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <a class="btn" href="index.html"><i class="fas fa-home iaon"></i> Home</a>
+                    <a class="btn btn-danger" href="index.html"><i class="fas fa-home iaon"></i> Home</a>
                     <a class="btn" href="about.html"> About Us</a>
-                    <a class="btn btn-danger" href="shop.html"> Shop</a>
+                    <a class="btn" href="shop.html"> Shop</a>
                     <a class="btn" href="contact.html"> Contact Us</a>
                     <a class="btn" href="#"> Privacy Policy</a>
                 </div>
@@ -88,12 +61,25 @@
     </div>
     <!-- end navbar -->
 
+        <!-- start badcrome -->
+        <div class="badcrome">
+            <div class="container">
+                <div class="row">
+                    <div class="my-3">
+                        <div class="text-light w-100 bg-dark p-2 icon"><i class="fas fa-home iaon"></i> Home / Products / This is product title</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end badcrome -->
+
+
 
 <!-- start product view page -->
 
 <div class="product-view">
     <div class="container">
-        <div class="row py-3">
+        <div class="row">
             <!-- start product left side -->
             <div class="col-sm-4">
                 <div class="card">
@@ -137,11 +123,13 @@
 
             <!-- start product right side -->
             <div class="col-sm-8">
-                <div class="card p-2">
-                    <span class="bg-light p-2 icon"><i class="fas fa-home iaon"></i> Home / Products / This is product title</span>
-                    <br><br>
+                <div class="card">
+                    <br>
                     <div class="card-body">
                         <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, blanditiis.</h2>
+                        <div class="price">
+                            <h3><strong>Price: 5000tk </strong> <del class="h5"> 7000tk </del></h3>
+                        </div>
                         <strong>Quick Details:</strong>
                         <ul>
                             <li>Brand: Man Tshirt</li>
@@ -151,7 +139,7 @@
                         </ul>
                         <div class="row">
                             <div class="variation">
-                                <label for=""><strong>Color: </strong></label>
+                                <label for="" class="form-label"><strong>Color: </strong></label>
                                 <div class="mb-1">
                                     <span class="btn border">Black</span>
                                     <span class="btn border">White</span>
@@ -159,7 +147,7 @@
                                 </div>
                             </div>
                             <div class="variation">
-                                <label for=""><strong>Size: </strong></label>
+                                <label for="" class="form-label"><strong>Size: </strong></label>
                                 <div class="mb-1">
                                     <span class="btn border">Small</span>
                                     <span class="btn border">Medium</span>
@@ -168,23 +156,15 @@
                                 </div>
                             </div>
                             <div class="variation">
-                                <label for=""><strong>Quantity: </strong></label>
+                                <label for="" class="form-label"><strong>Quantity: </strong></label>
                                 <div class="row">
-                                    <div class="col-sm-3">
-                                        <div class="input-group mb-3">
-                                            <div class="input-group-text">
-                                                <i class="fas fa-plus"></i>
-                                            </div>
-                                            <input type="" value="1" class="form-control btn border btn-outline">
-                                            <div class="input-group-text">
-                                                <i class="fas fa-minus"></i>
-                                            </div>
-                                        </div>
+                                    <div class="col-sm-2">
+                                        <input type="number" name="quality" value="1" class="w-100 text-center p-1">
                                     </div>
                                     <div class="col-sm-9">
-                                        <a href="#" class="btn border btn-dark"> <i class="fas fa-cart-plus icon"></i> Add to Cart</a>
-                                        <a href="checkout.html" class="btn border btn-dark"> <i class="fas fa-shopping-cart icon"></i> Checkout</a>
-                                        <a href="#" class="btn border btn-dark"> <i class="fas fa-share icon"></i></i> Share</a>
+                                        <a href="#" class="btn border btn-success"> <i class="fas fa-cart-plus icon"></i> Add to Cart</a>
+                                        <a href="checkout.html" class="btn border btn-success"> <i class="fas fa-shopping-cart icon"></i> Checkout</a>
+                                        <a href="#" class="btn border btn-success"> <i class="fas fa-share icon"></i></i> Share</a>
                                     </div>
                                     
                                 </div>
@@ -196,7 +176,7 @@
             <!-- end product right side -->
         </div>
         <!-- start description section -->
-        <div class="row">
+        <div class="row my-3">
             <div class="container">
                 <div class="row">
                 <div class="col-sm-9">
@@ -423,7 +403,7 @@
                             <div class="card">
                                 <div class="card-header p-0">
                                     <a class="text-dark" href="product.html">
-                                        <img src="image/product/ram/product5.jpg" width="100%" alt="">
+                                        <img src="image/product/ram/product5.jpg" width="100%" id="product-image" alt="">
                                         <div class="p-2">
                                             <h6>Brand New Products Title this is shop</h6>
                                             <i class="star-active fas fa-star"></i>
