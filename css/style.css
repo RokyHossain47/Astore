@@ -41,6 +41,11 @@ body {
 .order-icon {
     font-size: 2rem;
 }
+.manu-link-item{
+    border: 1px solid white;
+    background-color: #388a4d;
+}
+
 
 /* Product slider */
 
@@ -119,6 +124,18 @@ div {
 }
 .star-active{
     color: #FFCA28 !important;
+}
+.product-grid{
+
+}
+.product-list{
+
+}
+.hide-list{
+    display: none;
+}
+.hide-grid{
+    display: none;
 }
 
 /* end shop page style */
