@@ -99,7 +99,9 @@ div {
 
 /* end about us page */
 
-
+.user-login-body{
+    margin: 5rem 25rem;
+}
 /* start shop Page Style */
 .product-image{
     background-size: cover !important;
