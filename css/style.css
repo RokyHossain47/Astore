@@ -98,9 +98,17 @@ div {
 
 
 /* end about us page */
-
+.login-body{
+    margin: 10rem 18rem;
+}
+.titleText i{
+    font-size: 3rem;
+}
+.login-page-logo{
+    margin: 11rem 0rem;
+}
 .user-login-body{
-    margin: 5rem 25rem;
+    margin: 5rem 18rem;
 }
 /* start shop Page Style */
 .product-image{

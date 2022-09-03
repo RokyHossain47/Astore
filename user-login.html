@@ -60,57 +60,96 @@
     </div>
     <!-- end navbar -->
 
-    <!-- start badcrome -->
-    <div class="badcrome">
-        <div class="container">
-            <div class="row">
-                <div class="my-3">
-                    <div class="text-light w-100 bg-dark p-2 icon"><i class="fas fa-home iaon"></i> Home / Products / This is product title</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end badcrome -->
+<!-- start user login page -->
 
-    <!-- start user login page -->
-    
-    <div class="user-login">
-        <div class="container">
-            <div class="card user-login-body">
-                <div class="card-header">
-                    <h2 class="card-title text-center"> <strong>User Login</strong> </h2>
-                </div>
-                <div class="card-body text-center p-5">
-                    <p>Sign in to start your session</p>
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-envelope"></i></span>
-                    </div> <br>
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Password" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-lock"></i></span>
-                    </div><br>
-                    <div class="input-group">
-                        <input type="checkbox" class="float-start" name="remamber" id="remamber"><label for="remamber" class="ps-2 me-5"> Remamber Me</label>
-                        <label for="remamber" class="ps-3 float-end ms-5"> <a href="#">Register as new member</a></label>
-                    </div><br>
-                    <div class="input-group">
-                        <button type="submit" class="w-100 btn btn-success"> Singin </button>
-                    </div>
-                        
-                        <span class="btn">Or</span>
+    <section class="container" id='main-content'>
+        <!-- left column -->
+        <div class="page-content memberLogin">
+            <div class="wizard-v2-content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card login-form user-login-body shadow-lg
+                            rounded-10">
+                            <div class="card-body p-0">
+                                <span class="shape"></span>
+                                <div class="row">
+                                    <div class="col-lg-4 bg-dark">
+                                        <div class="loginSidetext h-100">
+                                            <div class="body">
+                                                <img src="image/logo/logo.png" alt="" class="w-100 login-page-logo bg-dark">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="loginForm  p-5">
+                                            <div class="titleText text-center position-relative">
+                                                <i class="far fa-user-circle"></i>
+                                                <h3></h3>
+                                                <h4 class="mb-4">
+                                                    <big>USER LOGIN</big>
+                                                </h4>
+                                            </div>
+                                            <div class=""></div>
+                                            <form id="quickForm" action="" method="Post"><div class="col-12">
+                                                <div class="form-group">
+                                                        <label for="email" class="form-label-sm font-weight-bold
+                                                            mb-0"> Email </label>
+                                                        <div class="input-group
+                                                            mb-3 loginBox">
+                                                            <span class="input-group-text" id="basic-addon1">
+                                                                <i class="fas fa-envelope"></i>
+                                                            </span>
+                                                            <input type="text" name="email" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                                        </div>
+                                                        <div class="invalid-feedback"></div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="email" class="form-label-sm
+                                                            font-weight-bold
+                                                            mb-0"> Password </label>
+                                                        <div class="input-group
+                                                            mb-3 loginBox">
+                                                            <span class="input-group-text" id="basic-addon1">
+                                                                <i class="fas
+                                                                    fa-lock"></i>
+                                                            </span>
+                                                            <input type="password" name="password" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                                        </div>
+                                                        <div class="invalid-feedback"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="flex items-center justify-end mt-4">
+                                                    <label for="remember_me" class="inline-flex items-center">
+                                                        <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" name="remember">
+                                                        <span class="ml-2 text-sm text-gray-600">Remember me</span>
+                                                    </label>
+                                                    <div class="float-end">
+                                                        <a class="underline text-sm text-gray-600 hover:text-gray-900" href="">Forgot your password?</a><br>
+                                                        <br>
+                                                        <div class="form-group mb-4">
+                                                            <button type="submit" class="btn btn-success my-4 float-end px-5">
+                                                                Login
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
                         <div class="input-group">
                             <button type="submit" class="w-100 btn btn-primary"> <i class="fab fa-facebook-square text-light icon"></i> Join With Facebook </button>
                         </div>
                         <div class="input-group mt-2">
                             <button type="submit" class="w-100 btn btn-danger"> <i class="fas fa-envelope icon"></i> Join With Google </button>
                         </div>
-
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    
+    </section>
+
     <!-- Start user login page -->
 
     <!-- start Footer -->
