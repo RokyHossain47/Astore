@@ -119,3 +119,13 @@ if($('.vslider').length)
 // product grid
 
 
+
+//
+$(".c-manu").click(function(){
+    $(".c-item").css("display", "block"); 
+  });
+  $(".ca").click(function(){
+    $(".c-item").css("display", "none"); 
+  });
+
+

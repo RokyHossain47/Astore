@@ -269,3 +269,27 @@ border-color: none;
 }
 
 /* End Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .c-item{
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .card-bottom{
+        margin-bottom: 0.5rem;
+    }
+}

@@ -21,52 +21,85 @@
 </head>
 <body>
     <!-- start top nav -->
-    <div class="top-nav bg-dark text-light">
-        <div class="container">
-            <div class="row pt-2">
-                <div class="col-sm-2 col-2">
-                    <img src="image/logo/logo.png" width="60" alt=""> <span class="h3 p-1">Store</span>
-                </div>
-                <div class="col-sm-7 col-7">
-                    <div class="input-group p-2">
-                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-                        <button type="button" class="btn btn-success"><i class="fas fa-search"></i> Search</button>
-                    </div>
-                </div>
-                <div class="col-sm-3 text-center col-3">
-                    <div class="row pt-2">
-                        <div class="col-sm-5"> <a href="user-login.html" class="text-light"><i class="fas fa-user"></i> Login/Singin</a> </div>
-                        <div class="col-sm-4"><i class="fas fa-comment-alt"></i> Massage </div>
-                        <div class="col-sm-3"><a href="cart.html" class="text-light"><i class="fas fa-shopping-cart"></i> Cart </a></div>
-                    </div>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid container">
+            <div class="col-sm-2 col-2">
+                <img src="image/logo/logo.png" width="60" alt=""> <span class="h3 p-1">Store</span>
+            </div>
+            <div class="col-sm-7 col-7">
+                <div class="input-group p-2">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                    <button type="button" class="btn btn-success"><i class="fas fa-search"></i> Search</button>
                 </div>
             </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Dropdown" aria-controls="Dropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-ellipsis-v p-1 text-light"></i></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Dropdown">
+            <ul class="navbar-nav col-3">       
+              <li class="nav-item mx-1">
+                <div class="btn"> <a href="user-login.html" class="text-light"><i class="fas fa-user"></i> Login/Singin</a> </div>
+              </li>
+              <li class="nav-item mx-1">
+                <div class="btn"><a href="#" lass="text-light"><i class="fas fa-comment-alt"></i> Massage </a></div>
+              </li>
+              <li class="nav-item mx-1">
+                <div class="btn"><a href="cart.html" class="text-light"><i class="fas fa-shopping-cart"></i> Cart </a></div>
+              </li>
+             
+            </ul>
+          </div>
         </div>
-    </div><hr>
+      </nav>
+      <hr>
     <!-- end top nav -->
 
-    <!-- start navbar -->
-    <div class="navbar bg-success">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <a class="btn manu-link-item manu-item" href="index.html"><i class="fas fa-home iaon"></i> Home</a>
-                    <a class="btn" href="about.html"> About Us</a>
-                    <a class="btn" href="shop.html"> Shop</a>
-                    <a class="btn" href="contact.html"> Contact Us</a>
-                    <a class="btn" href="privacy-policy.html"> Privacy Policy</a>
-                </div>
-            </div>
-        </div>
+    
+
+    <!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-success card-bottom">
+  <div class="container-fluid container">
+    <a class="btn manu-link-item manu-item mx-1" href="index.html"><i class="fas fa-home iaon"></i> Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-bars p-1 text-light"></i></span>
+    </button>
+    <div class="collapse navbar-collapse text-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">       
+        <li class="nav-item mx-1">
+            <a class="btn" href="about.html"> About Us</a>
+        </li>
+        <li class="nav-item mx-1">
+            <a class="btn" href="shop.html"> Shop</a>
+        </li>
+        <li class="nav-item mx-1">
+            <a class="btn" href="contact.html"> Contact Us</a>
+        </li>
+        <li class="nav-item mx-1">
+            <a class="btn" href="privacy-policy.html"> Privacy Policy</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu bg-success" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
+  </div>
+</nav>
     <!-- end navbar -->
 
     <!-- start header -->
+    
     <div class="container">
-        <div class="row p-2">
-            <div class="col-sm-3 card p-0">
-                <h5 class="card-header"><i class="fas fa-bars text-red icon"></i>All Catagory</h5>
-                    <ul class="list-group">
+        <div class="row px-2">
+            <div class="col-sm-3 card-bottom card p-0">
+                <h5 class="card-header c-manu ca-manu"><i class="fas fa-bars text-red icon"></i> All Catagory</h5>
+                    <ul class="list-group c-item">
                         <a href="#"><li class="list-group-item manu-item"><i class="icon fas fa-arrow-right"></i> Mobiles (254)</li></a>
                         <a href="#"><li class="list-group-item manu-item"><i class="icon fas fa-arrow-right"></i> Laptop (154)</li></a>
                         <a href="#"><li class="list-group-item manu-item"><i class="icon fas fa-arrow-right"></i> Electronics (124)</li></a>
@@ -77,7 +110,7 @@
                         <a href="#"><li class="list-group-item manu-item"><i class="icon fas fa-arrow-right"></i> Fashion & Beauty (4586)</li></a>
                     </ul>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 card-bottom p-0">
                 <h5 class="card-header text-center">A - Store Best Commerce Website</h5>
                 <!-- slider -->
                 <div id="main-carousel" class="carousel slide" data-bs-ride="carousel">
@@ -115,14 +148,14 @@
                 </div>
             </div>
 
-            <div class="col-sm-3 card p-0">
+            <div class="col-sm-3 card-bottom card p-0">
                 <h5 class="card-header"><i class="fas fa-fire icon"></i> Best Offers</h5>
                 <div class="card m-1 p-2">
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 col-3">
                             <img src="image/offer/30.png" width="50" height="50" alt="">
                         </div>
-                        <div class="col-sm-9">
+                        <div class="col-sm-9 col-9">
                             <h6>30% Off With Monitor</h6>
                             <span>In Sape Hand</span>
                         </div>
@@ -130,10 +163,10 @@
                 </div>
                 <div class="card m-1 p-2">
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 col-3">
                             <img src="image/offer/30.png" width="50" height="50" alt="">
                         </div>
-                        <div class="col-sm-9">
+                        <div class="col-sm-9 col-9">
                             <h6>30% Off With Processor</h6>
                             <span>In Sape Hand</span>
                         </div>
@@ -141,10 +174,10 @@
                 </div>
                 <div class="card m-1 p-2">
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 col-3">
                             <img src="image/offer/30.png" width="50" height="50" alt="">
                         </div>
-                        <div class="col-sm-9">
+                        <div class="col-sm-9 col-9">
                             <h6>30% Off With Phone</h6>
                             <span>In Sape Hand</span>
                         </div>
@@ -152,10 +185,10 @@
                 </div>
                 <div class="card m-1 p-2">
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 col-3">
                             <img src="image/offer/30.png" width="50" height="50" alt="">
                         </div>
-                        <div class="col-sm-9">
+                        <div class="col-sm-9 col-9">
                             <h6>30% Off With Electronics</h6>
                             <span>In Sape Hand</span>
                         </div>
@@ -172,52 +205,52 @@
 
     <!-- start bottom header -->
 
-    <div class="">
+    <div class="card-bottom">
         <div class="container">
             <div class="row py-3">
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-3">
                     <div class="card hover text-light p-2">
                         <div class="row">
                             <div class="col-sm-3">
                                <img src="image/support/support.png" width="100%" alt="">
                             </div>
-                            <div class="col-sm-9">
+                            <div class="col-sm-9 d-none d-sm-block">
                                 <h6>24 x 7 Support</h6>
                                 <span>In Sape Hand</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-3">
                     <div class="card hover text-light p-2">
                         <div class="row">
                             <div class="col-sm-3">
                                 <img src="image/support/free.png" width="100%" alt="">                            </div>
-                            <div class="col-sm-9">
+                            <div class="col-sm-9 d-none d-sm-block">
                                 <h6>Free Delivery</h6>
                                 <span>In Sape Hand</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-3">
                     <div class="card hover text-light p-2">
                         <div class="row">
                             <div class="col-sm-3">
                                 <img src="image/support/money.png" width="100%" alt="">                            </div>
-                            <div class="col-sm-9">
+                            <div class="col-sm-9 d-none d-sm-block">
                                 <h6>Money Return</h6>
                                 <span>In Sape Hand</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-3">
                     <div class="card hover text-light p-2">
                         <div class="row">
                             <div class="col-sm-3">
                                 <img src="image/support/quality.png" width="100%" alt="">                            </div>
-                            <div class="col-sm-9">
+                            <div class="col-sm-9 d-none d-sm-block">
                                 <h6>High Quality Products</h6>
                                 <span>In Sape Hand</span>
                             </div>
@@ -238,7 +271,7 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo0.png" width="50px" height="50px" alt="">
@@ -246,7 +279,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo1.png" width="50px" height="50px" alt="">
@@ -254,7 +287,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo2.png" width="50px" height="50px" alt="">
@@ -262,7 +295,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo3.png" width="50px" height="50px" alt="">
@@ -270,7 +303,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo4.png" width="50px" height="50px" alt="">
@@ -278,7 +311,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo5.png" width="50px" height="50px" alt="">
@@ -286,7 +319,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo6.png" width="50px" height="50px" alt="">
@@ -294,7 +327,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo7.png" width="50px" height="50px" alt="">
@@ -302,7 +335,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo8.png" width="50px" height="50px" alt="">
@@ -310,7 +343,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo9.png" width="50px" height="50px" alt="">
@@ -318,7 +351,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo10.png" width="50px" height="50px" alt="">
@@ -326,7 +359,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo11.png" width="50px" height="50px" alt="">
@@ -334,7 +367,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo12.png" width="50px" height="50px" alt="">
@@ -342,7 +375,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo13.png" width="50px" height="50px" alt="">
@@ -350,7 +383,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo14.png" width="50px" height="50px" alt="">
@@ -358,7 +391,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo15.png" width="50px" height="50px" alt="">
@@ -366,7 +399,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo16.png" width="50px" height="50px" alt="">
@@ -374,7 +407,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo17.png" width="50px" height="50px" alt="">
@@ -382,7 +415,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo18.png" width="50px" height="50px" alt="">
@@ -390,7 +423,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo19.png" width="50px" height="50px" alt="">
@@ -398,7 +431,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo20.png" width="50px" height="50px" alt="">
@@ -406,7 +439,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo21.png" width="50px" height="50px" alt="">
@@ -414,7 +447,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo22.png" width="50px" height="50px" alt="">
@@ -422,7 +455,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-sm-1 my-2">
+                        <div class="col-sm-1 col-4 my-2">
                             <div class="text-center border p-2">
                                 <a href="">
                                     <img src="image/catagory-logo/logo23.png" width="50px" height="50px" alt="">
@@ -445,7 +478,7 @@
     <div class="new-product">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-3 card-bottom">
                     <img src="image/banner/best selling.png" alt="" height="100%" width="100%">
                 </div>
                 <div class="col-sm-9">
@@ -468,14 +501,17 @@
                                                 <div class="col-7">
                                                     <div class="product-detailes">
                                                         <div class="p-2">
-                                                            <h5>Brand New Products Title this is shop</h5>
-                                                            <i class="star-active fas fa-star"></i>
-                                                            <i class="star-active fas fa-star"></i>
-                                                            <i class="star-active fas fa-star"></i>
-                                                            <i class="star-active fas fa-star"></i>
-                                                            <i class=" fas fa-star"></i>
-                                                            <span><small><a href="#">( 58 Stars ) </a></small></span>
-                                                            <p class="category-name"><strong>Category: </strong>Laptop</p>
+                                                            <h5 class="d-none d-sm-block">Brand New Products Title this is shop</h5>
+                                                            <p class="d-sm-none">Brand New Products Title this is shop</p>
+                                                           <div class="d-none d-sm-block">
+                                                                <i class="star-active fas fa-star"></i>
+                                                                <i class="star-active fas fa-star"></i>
+                                                                <i class="star-active fas fa-star"></i>
+                                                                <i class="star-active fas fa-star"></i>
+                                                                <i class=" fas fa-star"></i>
+                                                                <span><small><a href="#">( 58 Stars ) </a></small></span>
+                                                           </div>
+                                                            <span class="category-name"><strong>Category: </strong>Laptop</span>
                                                             <div class="row">
                                                                 <div class="col-sm-12">
                                                                     <span> <strong>Price: </strong> 500 Tk</span> / <del>1000 Tk</del>
@@ -505,13 +541,16 @@
                                                 <div class="col-7">
                                                     <div class="product-detailes">
                                                         <div class="p-2">
-                                                            <h5>Brand New Products Title this is shop</h5>
-                                                            <i class="star-active fas fa-star"></i>
-                                                            <i class="star-active fas fa-star"></i>
-                                                            <i class="star-active fas fa-star"></i>
-                                                            <i class="star-active fas fa-star"></i>
-                                                            <i class=" fas fa-star"></i>
-                                                            <span><small><a href="#">( 58 Stars ) </a></small></span>
+                                                            <h5 class="d-none d-sm-block">Brand New Products Title this is shop</h5>
+                                                            <p class="d-sm-none">Brand New Products Title this is shop</p>
+                                                            <div class="d-none d-sm-block">
+                                                                <i class="star-active fas fa-star"></i>
+                                                                <i class="star-active fas fa-star"></i>
+                                                                <i class="star-active fas fa-star"></i>
+                                                                <i class="star-active fas fa-star"></i>
+                                                                <i class=" fas fa-star"></i>
+                                                                <span><small><a href="#">( 58 Stars ) </a></small></span>
+                                                            </div>
                                                             <p class="category-name"><strong>Category: </strong>Laptop</p>
                                                             <div class="row">
                                                                 <div class="col-sm-12">
@@ -538,19 +577,22 @@
                                             <div class="row my-2 border">
                                                 <div class="col-5 card">
                                                     <div class="product-image">
-                                                        <img src="image/product/laptop/laptop4.jpg" width="100%" alt="">
+                                                        <img src="image/product/laptop/laptop1.jpg" width="100%" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="product-detailes">
                                                         <div class="p-2">
-                                                            <h5>Brand New Products Title this is shop</h5>
-                                                            <i class="star-active fas fa-star"></i>
-                                                            <i class="star-active fas fa-star"></i>
-                                                            <i class="star-active fas fa-star"></i>
-                                                            <i class="star-active fas fa-star"></i>
-                                                            <i class=" fas fa-star"></i>
-                                                            <span><small><a href="#">( 58 Stars ) </a></small></span>
+                                                            <h5 class="d-none d-sm-block">Brand New Products Title this is shop</h5>
+                                                            <p class="d-sm-none">Brand New Products Title this is shop</p>
+                                                            <div class="d-none d-sm-block">
+                                                                <i class="star-active fas fa-star"></i>
+                                                                <i class="star-active fas fa-star"></i>
+                                                                <i class="star-active fas fa-star"></i>
+                                                                <i class="star-active fas fa-star"></i>
+                                                                <i class=" fas fa-star"></i>
+                                                                <span><small><a href="#">( 58 Stars ) </a></small></span>
+                                                            </div>
                                                             <p class="category-name"><strong>Category: </strong>Laptop</p>
                                                             <div class="row">
                                                                 <div class="col-sm-12">
@@ -571,39 +613,42 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="m-2">
-                                            <!-- list product -->
-                                            <div class="row my-2 border">
-                                                <div class="col-5 card">
-                                                    <div class="product-image">
-                                                        <img src="image/product/ram/product5.jpg" width="100%" alt="">
-                                                    </div>
+                                           <!-- list product -->
+                                           <div class="row my-2 border">
+                                            <div class="col-5 card">
+                                                <div class="product-image">
+                                                    <img src="image/product/ram/product6.jpg" width="100%" alt="">
                                                 </div>
-                                                <div class="col-7">
-                                                    <div class="product-detailes">
-                                                        <div class="p-2">
-                                                            <h5>Brand New Products Title this is shop</h5>
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="product-detailes">
+                                                    <div class="p-2">
+                                                        <h5 class="d-none d-sm-block">Brand New Products Title this is shop</h5>
+                                                        <p class="d-sm-none">Brand New Products Title this is shop</p>
+                                                        <div class="d-none d-sm-block">
                                                             <i class="star-active fas fa-star"></i>
                                                             <i class="star-active fas fa-star"></i>
                                                             <i class="star-active fas fa-star"></i>
                                                             <i class="star-active fas fa-star"></i>
                                                             <i class=" fas fa-star"></i>
                                                             <span><small><a href="#">( 58 Stars ) </a></small></span>
-                                                            <p class="category-name"><strong>Category: </strong>Laptop</p>
-                                                            <div class="row">
-                                                                <div class="col-sm-12">
-                                                                    <span> <strong>Price: </strong> 500 Tk</span> / <del>1000 Tk</del>
-                                                                </div>
+                                                        </div>
+                                                        <p class="category-name"><strong>Category: </strong>Laptop</p>
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <span> <strong>Price: </strong> 500 Tk</span> / <del>1000 Tk</del>
                                                             </div>
-                                                            <div class="row">
-                                                                <div class="col-sm-12 my-2">
-                                                                    <a href="#" class="btn btn-success">Order Now</a>
-                                                                </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-12 my-2">
+                                                                <a href="#" class="btn btn-success">Order Now</a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- list product -->
+                                        </div>
+                                        <!-- list product -->
                                         </div>
                                     </div>
                                 </div>
