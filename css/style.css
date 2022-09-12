@@ -249,6 +249,34 @@ border-color: none;
     background: linear-gradient(90deg, rgba(36,60,79,1) 25%, rgba(25,135,84,1) 100%, rgba(16,55,62,1) 100%); 
 }
 
+
+/* start index1 */
+.feature-product, .blogs, .latest-products{
+    background-color: antiquewhite;
+    padding: 3rem 0rem;
+}
+.Best-selling-product{
+    padding: 3rem 0rem;
+}
+.bg-offer{
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end index1 */
+
 /* Start Footer */
 .footer-link {
     padding: 10px;
@@ -288,6 +316,7 @@ border-color: none;
         display: none;
     }
 }
+
 @media only screen and (max-width: 600px) {
     .card-bottom{
         margin-bottom: 0.5rem;

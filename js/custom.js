@@ -118,16 +118,9 @@ if($('.vslider').length)
 
 // product grid
 
-
-
-//
 $(".c-manu").click(function(){
-    $(".c-item").css("display", "block"); 
+    $(".c-item").toggle();
   });
-  $(".ca").click(function(){
-    $(".c-item").css("display", "none"); 
-  });
-
 
 
 
