@@ -251,7 +251,7 @@ border-color: none;
 
 
 /* start index1 */
-.feature-product, .blogs, .latest-products{
+.feature-product, .brand, .latest-products{
     background-color: antiquewhite;
     padding: 3rem 0rem;
 }
@@ -260,6 +260,9 @@ border-color: none;
 }
 .bg-offer{
     background-color: #fff;
+}
+.carousel-caption{
+    padding: 5rem 15rem;
 }
 
 
