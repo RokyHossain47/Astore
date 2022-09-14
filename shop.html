@@ -76,6 +76,9 @@
             <a class="btn" href="contact.html"> Contact Us</a>
         </li>
         <li class="nav-item mx-1">
+            <a class="btn" href="blogs.html"> Blogs </a>
+        </li>
+        <li class="nav-item mx-1">
             <a class="btn" href="privacy-policy.html"> Privacy Policy</a>
         </li>
         <li class="nav-item dropdown">
@@ -916,10 +919,35 @@
    <!-- End Bottom Footer -->
 
 
- <!-- Js Plugins -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+      <!-- Back to top -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
+
+      <!-- Js Plugins -->
+     <script src="js/jquery-3.3.1.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+     <script src="js/custom.js"></script>
+     
+     <script>
+         // Back to top
+         let mybutton = document.getElementById("myBtn");
+         
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+     </script>
 <script>
     $(document).ready(function(){
         $(".grid").click(function(){
