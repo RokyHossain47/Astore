@@ -319,6 +319,27 @@ border-color: none;
         display: none;
     }
 }
+@media only screen and (max-width: 600px) {
+    .best-offer-item{
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .login-left{
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .user-login-body{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .login-body{
+        margin: 0;
+        margin-top: 5rem;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .card-bottom{

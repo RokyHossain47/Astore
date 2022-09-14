@@ -120,7 +120,10 @@ if($('.vslider').length)
 
 $(".c-manu").click(function(){
     $(".c-item").toggle();
-  });
+});
+$(".best-offer").click(function(){
+  $(".best-offer-item").toggle();
+});
 
 
 
