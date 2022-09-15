@@ -97,7 +97,7 @@ div {
 /* start about us page */
 
 
-/* end about us page */
+/* end login page */
 .login-body{
     margin: 10rem 18rem;
 }
@@ -109,6 +109,9 @@ div {
 }
 .user-login-body{
     margin: 5rem 18rem;
+}
+.user-registration-body{
+    margin: 5rem 15rem;
 }
 /* start shop Page Style */
 .product-image{
@@ -230,6 +233,7 @@ border-color: none;
 }
 .bg-dark, .btn-dark{
     background-color: #243c4f !important;
+    color: white;
 }
 .btn-success:hover{
     background-color: #243c4f;
