@@ -109,10 +109,10 @@
                             <h6><strong>Roky Hossain</strong></h6>
                         </div>
                         <div class="card-body p-0">
-                            <a href="dashboard.html" class="btn btn-outline-success user-btn w-100 text-start">Dashboard</a>
+                            <a href="dashboard.html" class="btn btn-outline-success w-100 text-start">Dashboard</a>
                             <a href="profile.html" class="btn btn-outline-success w-100 text-start">Profile</a>
                             <a href="order.html" class="btn btn-outline-success w-100 text-start">Order</a>
-                            <a href="support-ticket.html" class="btn btn-outline-success w-100 text-start">Support Ticket</a>
+                            <a href="support-ticket.html" class="btn btn-outline-success user-btn w-100 text-start">Support Ticket</a>
                             <a href="security.html" class="btn btn-outline-success w-100 text-start">Security</a>
                         </div>
                     </div>
@@ -120,147 +120,58 @@
                 <div class="col-sm-10">
                     <div class="card">
                         <div class="card-header">
-                            <h5><strong class="">User Dashboard</strong></h5>
+                            <h5><strong class="">Support Deshboard</strong></h5>
                         </div>
                         <div class="card-body">
                             <div class="row">
-                              <div class="col-sm-3">
-                                <div class="order text-light text-center p-4 bg-success">
-                                  <h1><strong>26</strong></h1> <h6><b>Products in you order</b></h6>
+                              <div class="card p-0">
+                                <div class="card-header">
+                                  <h5 class="card-title">Create Ticket</h5>
+                                </div>
+                                <div class="card-body">
+                                  <input type="text" class="form-control" name="subject" placeholder="subject"> <br>
+                                  <textarea name="ticket" class="form-control" name="massage" id="ticket" cols="30" rows="2">Write Massage</textarea> <br>
+                                  <button type="submit" class="btn btn-success px-4">Send</button>
+                                </div>
+                              </div> <br>
+                              <div class="card mt-3 p-0">
+                                <div class="card-header">
+                                  <h5 class="card-title">Ticket History</h5>
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-bordered text-center table-hover">
+                                      <thead>
+                                        <tr>
+                                          <th>ID</th>
+                                          <th>Subject</th>
+                                          <th>Massage</th>
+                                          <th>Date</th>
+                                          <th>Status</th>
+                                          <th>Action</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>1</td>
+                                          <td>Help</td>
+                                          <td>I need help with my order</td>
+                                          <td>15/09/22</td>
+                                          <td class="text-success">Complete</td>
+                                          <td><i class="fas fa-window-close text-danger"></i></td>
+                                        </tr>
+                                        <tr>
+                                          <td>2</td>
+                                          <td>Help</td>
+                                          <td>I need help with my Account</td>
+                                          <td>15/09/22</td>
+                                          <td class="text-success">Complete</td>
+                                          <td><i class="fas fa-window-close text-danger"></i></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
                                 </div>
                               </div>
-                              <div class="col-sm-3">
-                                <div class="order text-light text-center p-4 bg-success">
-                                  <h1><strong>6</strong></h1> <h6><b>Order History</b></h6>
-                                </div>
-                              </div>
-                              <div class="col-sm-3">
-                                <div class="order text-light text-center p-4 bg-success">
-                                  <h1><strong>14</strong></h1> <h6><b>Whitelist</b></h6>
-                                </div>
-                              </div>
-                              <div class="col-sm-3">
-                                <div class="order text-light text-center p-4 bg-success">
-                                  <h1><strong>4</strong></h1> <h6><b>Product Cart</b></h6>
-                                </div>
-                              </div>
-                            </div> <br>
-                            <!-- Shipping address -->
-                            <div class="row">
-                              <div class="col-sm-4">
-                                <div class="card">
-                                  <div class="card-header">
-                                    <h5 class="card-title">Shipping Address</h5>
-                                  </div>
-                                  <div class="card-body">
-                                    <div class="row">
-                                      <div class="col-4">
-                                        <strong>Present A.</strong>
-                                      </div>
-                                      <div class="col-8">
-                                        <span>: Dhaka, Khilkhat</span>
-                                      </div>
-                                    </div>
-                                    <div class="row">
-                                      <div class="col-4">
-                                        <strong>Shipping A.</strong> <br>
-                                      </div>
-                                      <div class="col-8">
-                                        <span>: Dhaka, Khilkhat</span>
-                                      </div>
-                                    </div>
-                                    <div class="row">
-                                      <div class="col-4">
-                                        <strong>Email</strong> <br>
-                                      </div>
-                                      <div class="col-8">
-                                        <span>: admin@example.com</span>
-                                      </div>
-                                    </div>
-                                    <div class="row">
-                                      <div class="col-4">
-                                        <strong>Phone</strong> <br>
-                                      </div>
-                                      <div class="col-8">
-                                        <span>: +880107258963</span>
-                                      </div>
-                                    </div>
-                                    <div class="row">
-                                      <div class="col-4">
-                                        <strong>City</strong> <br>
-                                      </div>
-                                      <div class="col-8">
-                                        <span>: Dhaka</span>
-                                      </div>
-                                    </div>
-                                    <div class="row">
-                                      <div class="col-4">
-                                        <strong>Post Code</strong> <br>
-                                      </div>
-                                      <div class="col-8">
-                                        <span>: 25698</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-sm-4">
-                                <div class="card">
-                                  <div class="card-header">
-                                    <h5 class="card-title">Shipping Address</h5>
-                                  </div>
-                                  <div class="card-body">
-                                    <div class="row">
-                                      <div class="col-4">
-                                        <strong>Present A.</strong>
-                                      </div>
-                                      <div class="col-8">
-                                        <span>: Dhaka, Khilkhat</span>
-                                      </div>
-                                    </div>
-                                    <div class="row">
-                                      <div class="col-4">
-                                        <strong>Shipping A.</strong> <br>
-                                      </div>
-                                      <div class="col-8">
-                                        <span>: Dhaka, Khilkhat</span>
-                                      </div>
-                                    </div>
-                                    <div class="row">
-                                      <div class="col-4">
-                                        <strong>Email</strong> <br>
-                                      </div>
-                                      <div class="col-8">
-                                        <span>: admin@example.com</span>
-                                      </div>
-                                    </div>
-                                    <div class="row">
-                                      <div class="col-4">
-                                        <strong>Phone</strong> <br>
-                                      </div>
-                                      <div class="col-8">
-                                        <span>: +880107258963</span>
-                                      </div>
-                                    </div>
-                                    <div class="row">
-                                      <div class="col-4">
-                                        <strong>City</strong> <br>
-                                      </div>
-                                      <div class="col-8">
-                                        <span>: Dhaka</span>
-                                      </div>
-                                    </div>
-                                    <div class="row">
-                                      <div class="col-4">
-                                        <strong>Post Code</strong> <br>
-                                      </div>
-                                      <div class="col-8">
-                                        <span>: 25698</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
+                              
                             </div>
                         </div>
                     </div>

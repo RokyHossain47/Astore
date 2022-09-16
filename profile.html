@@ -85,10 +85,13 @@
           </a>
           <ul class="dropdown-menu bg-success" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="index1.html">index1</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="index2.html">index2</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
+        <li class="nav-item mx-1">
+          <a class="btn" href="dashboard.html"> User Dashboard</a>
+      </li>
       </ul>
     </div>
   </div>
@@ -101,23 +104,131 @@
             <div class="row">
                 <div class="col-sm-2">
                     <div class="card">
-                        <div class="card-header">
-                            <h5><strong class="">Roky Hossain</strong></h5>
+                        <div class="card-header text-center px-4">
+                          <img src="image/logo/man.png" width="100%" class="p-3" alt="">
+                            <h6><strong>Roky Hossain</strong></h6>
                         </div>
                         <div class="card-body p-0">
-                            <a href="dashboard.html" class="btn btn-outline-dark w-100 text-start">Dashboard</a>
-                            <a href="profile.html" class="btn btn-outline-dark bg-dark w-100 text-start">Profile</a>
-                            <a href="order.html" class="btn btn-outline-dark w-100 text-start">Order</a>
+                            <a href="dashboard.html" class="btn btn-outline-success w-100 text-start">Dashboard</a>
+                            <a href="profile.html" class="btn btn-outline-success user-btn w-100 text-start">Profile</a>
+                            <a href="order.html" class="btn btn-outline-success w-100 text-start">Order</a>
+                            <a href="support-ticket.html" class="btn btn-outline-success w-100 text-start">Support Ticket</a>
+                            <a href="security.html" class="btn btn-outline-success w-100 text-start">Security</a>
+
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-10">
                     <div class="card">
                         <div class="card-header">
-                            <h5><strong class="">User Profile</strong></h5>
+                            <h5><strong class="">Manage Profile</strong></h5>
                         </div>
                         <div class="card-body">
-                            User Profile
+                            <div class="card">
+                              <div class="card-header">
+                                <h5>Basic Information</h5>
+                              </div>
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-3 col-sm-2 p-2">Name</div>
+                                  <div class="col-9 col-sm-10">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control " placeholder="Enter you name">
+                                    </div>
+                                  </div>
+                                </div> <br>
+                                <div class="row">
+                                  <div class="col-3 col-sm-2 p-2">Email</div>
+                                  <div class="col-9 col-sm-10">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control " placeholder="example@example.com">
+                                    </div>
+                                  </div>
+                                </div> <br>
+                                <div class="row">
+                                  <div class="col-3 col-sm-2 p-2">Phone</div>
+                                  <div class="col-9 col-sm-10">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control " placeholder="+880145287">
+                                    </div>
+                                  </div>
+                                </div> <br>
+                                <div class="row">
+                                  <div class="col-3 col-sm-2 p-2">Address</div>
+                                  <div class="col-9 col-sm-10">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control " placeholder="Dhaka, Bangladesh">
+                                    </div>
+                                  </div>
+                                </div> <br>
+                                <div class="row">
+                                  <div class="col-3 col-sm-2 p-2">City</div>
+                                  <div class="col-9 col-sm-10">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control " placeholder="Dhaka">
+                                    </div>
+                                  </div>
+                                </div> <br>
+                                <button type="submit" class="btn btn-success px-4 float-end"> Save </button>
+                              </div>
+                            </div> <br>
+                            <!-- Shipping address -->
+                            <div class="card">
+                              <div class="card-header">
+                                <h5>Shipping Address</h5>
+                              </div>
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-3 col-sm-2 p-2">Present A.</div>
+                                  <div class="col-9 col-sm-10">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control " placeholder="Khilkhat, Dhaka">
+                                    </div>
+                                  </div>
+                                </div> <br>
+                                <div class="row">
+                                  <div class="col-3 col-sm-2 p-2">Shipping A.</div>
+                                  <div class="col-9 col-sm-10">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control " placeholder="Khilkhat, Dhaka, Bangladesh">
+                                    </div>
+                                  </div>
+                                </div> <br>
+                                <div class="row">
+                                  <div class="col-3 col-sm-2 p-2">Email </div>
+                                  <div class="col-9 col-sm-10">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control " placeholder="example@example.com">
+                                    </div>
+                                  </div>
+                                </div> <br>
+                                <div class="row">
+                                  <div class="col-3 col-sm-2 p-2">Phone </div>
+                                  <div class="col-9 col-sm-10">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control " placeholder="+88017236548">
+                                    </div>
+                                  </div>
+                                </div> <br>
+                                <div class="row">
+                                  <div class="col-3 col-sm-2 p-2">City</div>
+                                  <div class="col-9 col-sm-10">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control " placeholder="Dhaka">
+                                    </div>
+                                  </div>
+                                </div> <br>
+                                <div class="row">
+                                  <div class="col-3 col-sm-2 p-2"> Post Code </div>
+                                  <div class="col-9 col-sm-10">
+                                    <div class="form-group">
+                                      <input type="number" class="form-control " placeholder="123456">
+                                    </div>
+                                  </div>
+                                </div> <br>
+                                <button type="submit" class="btn btn-success px-4 float-end"> Save </button>
+                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>

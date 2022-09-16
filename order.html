@@ -85,10 +85,13 @@
           </a>
           <ul class="dropdown-menu bg-success" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="index1.html">index1</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="index2.html">index2</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
+        <li class="nav-item mx-1">
+          <a class="btn" href="dashboard.html"> User Dashboard</a>
+      </li>
       </ul>
     </div>
   </div>
@@ -101,23 +104,115 @@
             <div class="row">
                 <div class="col-sm-2">
                     <div class="card">
-                        <div class="card-header">
-                            <h5><strong class="">Roky Hossain</strong></h5>
+                        <div class="card-header text-center px-4">
+                          <img src="image/logo/man.png" width="100%" class="p-3" alt="">
+                            <h6><strong>Roky Hossain</strong></h6>
                         </div>
                         <div class="card-body p-0">
-                            <a href="dashboard.html" class="btn btn-outline-dark w-100 text-start">Dashboard</a>
-                            <a href="profile.html" class="btn btn-outline-dark w-100 text-start">Profile</a>
-                            <a href="order.html" class="btn btn-outline-dark bg-dark w-100 text-start">Order</a>
+                            <a href="dashboard.html" class="btn btn-outline-success w-100 text-start">Dashboard</a>
+                            <a href="profile.html" class="btn btn-outline-success w-100 text-start">Profile</a>
+                            <a href="order.html" class="btn btn-outline-success user-btn w-100 text-start">Order</a>
+                            <a href="support-ticket.html" class="btn btn-outline-success w-100 text-start">Support Ticket</a>
+                            <a href="security.html" class="btn btn-outline-success w-100 text-start">Security</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-10">
                     <div class="card">
                         <div class="card-header">
-                            <h5><strong class="">Orders</strong></h5>
+                            <h5><strong class="">Order Deshboard</strong></h5>
                         </div>
                         <div class="card-body">
-                            User Orders
+                           <div class="card">
+                            <div class="card-header">
+                              <h5 class="card-title">New Order</h5>
+                            </div>
+                            <div class="card-body">
+                              <div class="row">
+                                <table class="table table-bordered text-center table-hover">
+                                  <thead>
+                                    <tr>
+                                      <th>ID</th>
+                                      <th>Image</th>
+                                      <th>Product Name</th>
+                                      <th>Quintity</th>
+                                      <th>Price</th>
+                                      <th>Date</th>
+                                      <th>Status</th>
+                                      <th>Action</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>2</td>
+                                      <td><img src="image/product/laptop/laptop4.jpg" width="50" height="50" alt=""></td>
+                                      <td>HP Pavilion i3 12gen 15.5" HD</td>
+                                      <td>4</td>
+                                      <td>4000</td>
+                                      <td>15/09/22</td>
+                                      <td class="text-danger">Process...</td>
+                                      <td><i class="fas fa-window-close text-danger"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td>1</td>
+                                      <td><img src="image/product/ram/product10.jpg" width="50" height="50" alt=""></td>
+                                      <td>Corsair 8GB DDR4 3200MHz Ram</td>
+                                      <td>2</td>
+                                      <td>1500</td>
+                                      <td>15/09/22</td>
+                                      <td class="text-danger">Process...</td>
+                                      <td><i class="fas fa-window-close text-danger"></i></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                           </div> <br>
+                           <div class="card">
+                            <div class="card-header">
+                              <h5 class="card-title">Old Order</h5>
+                            </div>
+                            <div class="card-body">
+                              <div class="row">
+                                <table class="table table-bordered text-center table-hover">
+                                  <thead>
+                                    <tr>
+                                      <th>ID</th>
+                                      <th>Image</th>
+                                      <th>Product Name</th>
+                                      <th>Quintity</th>
+                                      <th>Price</th>
+                                      <th>Date</th>
+                                      <th>Status</th>
+                                      <th>Action</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>1</td>
+                                      <td><img src="image/product/laptop/laptop4.jpg" width="50" height="50" alt=""></td>
+                                      <td>HP Pavilion i3 12gen 15.5" HD</td>
+                                      <td>4</td>
+                                      <td>4000</td>
+                                      <td>15/09/22</td>
+                                      <td class="text-danger">Process...</td>
+                                      <td><i class="fas fa-window-close text-danger"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td>2</td>
+                                      <td><img src="image/product/ram/product10.jpg" width="50" height="50" alt=""></td>
+                                      <td>Corsair 8GB DDR4 3200MHz Ram</td>
+                                      <td>2</td>
+                                      <td>1500</td>
+                                      <td>15/09/22</td>
+                                      <td class="text-danger">Process...</td>
+                                      <td><i class="fas fa-window-close text-danger"></i></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                           </div>
                         </div>
                     </div>
                 </div>

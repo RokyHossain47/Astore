@@ -273,6 +273,11 @@ border-color: none;
   .fa-user-comment{
     font-size: 3rem;
   }
+  /* user dashboard */
+  .user-btn{
+    background-color: #388a4d;
+    color: white;
+  }
 
 
 /* start index1 */
